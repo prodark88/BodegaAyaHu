@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import CategoryProducts from "./pages/CategoryProducts";
+import Footer from "./layouts/Footer";
 
 const Root = () => (
   <div className="flex flex-col min-h-screen">
@@ -12,6 +13,7 @@ const Root = () => (
     <div className="flex-grow">
       <Outlet />
     </div>
+    <Footer/>
   </div>
 );
   
@@ -47,7 +49,7 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/productos/:category",
+        path: "/products/:category",
         element: <CategoryProducts />
       },
       {

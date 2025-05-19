@@ -3,26 +3,27 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import image from "../assets/image.png"
 import image2 from "../assets/image2.webp"
 import image3 from "../assets/image3.png"
+import image4 from "../assets/fly1.jpg"
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 const slides = [
-  image3 ,
-  image3 ,
-  image3 ,
+  image4 ,
+  image4 ,
+  image4 ,
 ];
 
 const marcas = [
-  'Faustino',
-  'Marqués de Cáceres',
-  'City of London',
-  'Ron Carúpano',
-  'Whitley Neill',
-  'Vittoria',
-  'Tarapacá',
-  'Doña Paula',
-  'Tabernero',
-  'Los Haroldos',
+  'Gloria',
+  'Doña Gusta',
+  'Ajinomoto',
+  'San Fernando',
+  'Laive',
+  'Don Vittorio',
+  'San Jorge',
+  'Inka Kola',
+  'Coca Cola',
+  'Head & Shoulders',
 ];
 
 const HeroSection =()=> {
