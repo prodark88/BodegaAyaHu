@@ -5,16 +5,16 @@ const Header =()=> {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navItems = [
-    'Vinos Argentinos',
-    'Vinos Chilenos',
-    'Vinos Españoles',
-    'Vinos USA',
-    'Vinos Peruanos',
-    'Pisco',
-    'RTDs',
-    'Licores',
-    'Promociones',
-    'Cyber 365',
+    "Arroz",
+    "Azúcar",
+    "Aceite",
+    "Lacteos",
+    "Arinas",
+    "Embutidos",
+    "Bebidas",
+    "Limpieza",
+    "Promociones",
+    "Cyber 365",
   ];
 
   return (
