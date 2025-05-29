@@ -15,6 +15,8 @@ export default function Login() {
 
   return (
     <div className="flex items-center justify-center min-h-screen bg-teal-50 p-4">
+
+      <div className="hidden md:flex w-1/2 bg-[url('/images/login-bg.jpg')] bg-cover bg-center" />
       <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6">
         <h2 className="text-2xl font-bold text-teal-600 mb-4 text-center">
           Iniciar sesión

@@ -6,7 +6,13 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import CategoryProducts from "./pages/CategoryProducts";
 import Footer from "./layouts/Footer";
-
+import Profile from "./pages/Profile";
+import AddProduct from "./components/products/AddProduct";
+import EditProduct from "./components/products/EditProduct";
+import ProductTable from "./components/products/ProductTable";
+import BannerCarousel from "./components/utils/BannerCarousel";
+import LoadingSpinner from "./components/utils/LoadingSpinner";
+import ProductFilters from "./components/products/ProductFilters";
 const Root = () => (
   <div className="flex flex-col min-h-screen">
     <Header />
@@ -42,7 +48,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/profile",
-        element: <Home />,
+        element: <Profile />,
       },
       {
         path: "/admin",
@@ -56,6 +62,44 @@ export const router = createBrowserRouter([
         path: "*",
         element: <Home />,
       },
+
+
+
+      // RUTAS ADMIN
+      {
+        path: "/admin/products",
+        element: <AddProduct />
+      },
+      {
+        path: "/admin/users",
+        element: <CategoryProducts />
+      },
+      {
+        path: "/admin/",
+        element: <CategoryProducts />
+      },
+      {
+        path: "/table",
+        element: <ProductTable />
+      },
+      {
+        path: "admin/products/edit",
+        element: <EditProduct />
+      },
+      {
+        path: "/banner/",
+        element: <BannerCarousel />
+      },
+      {
+        path: "/spinner/",
+        element: <LoadingSpinner />
+      },
+
+      {
+        path: "/filters/",
+        element: <ProductFilters />
+      },
+      
     ],
   },
 ]);
