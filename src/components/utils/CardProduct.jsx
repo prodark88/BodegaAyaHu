@@ -1,4 +1,7 @@
 import image from "../../assets/image.png";
+
+
+
 const Card = ({ title, brand, volume, price, image }) => {
   return (
     <div className="border rounded-lg p-4 w-full max-w-xs mx-auto flex flex-col items-center text-center shadow-sm">

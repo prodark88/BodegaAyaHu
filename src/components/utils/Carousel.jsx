@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import Card from './card';
+import Card from './CardProduct';
 import inkacola from '../../assets/productos/inkacola.jpeg';
 import jabondove from '../../assets/productos/jabondove.jpg';
 import lentejascosteña from '../../assets/productos/lentejascosteña.jpeg';

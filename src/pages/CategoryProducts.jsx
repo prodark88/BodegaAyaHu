@@ -1,6 +1,6 @@
 import { productos } from "../data/mockProducts";
 import { useParams } from "react-router-dom";
-import Card from "../components/utils/card";
+import Card from "../components/utils/CardProduct";
 const CategoryProducts = () => {
   const { category } = useParams();
   const productosFiltrados = productos[category] || [];
